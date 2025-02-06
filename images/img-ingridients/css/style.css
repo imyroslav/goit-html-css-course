@@ -1,0 +1,55 @@
+
+
+
+
+
+
+
+
+p::first-line {
+    color: aqua !important;
+}
+
+
+a {
+    color: green;
+}
+
+a:visited {
+    color: tomato;
+}
+
+
+
+
+* {
+    color: teal;
+}
+
+
+
+#list {
+    list-style-type: none;
+}
+
+.text {
+    font-size: medium;
+    font-style: italic;
+}
+
+
+
+
+[href] {
+    color: aqua;
+}
+
+
+
+div + p {
+    background-color: yellow;
+}
+
+.list .list-item {
+    color: turquoise;
+}
