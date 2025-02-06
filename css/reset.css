@@ -1,0 +1,17 @@
+/* Reset styles */
+
+.list {
+    list-style-type: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+
+
+

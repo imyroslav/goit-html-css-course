@@ -1,7 +1,0 @@
-dt {
-    background-color: aquamarine;
-}
-
-dt::before {
-    content: ": ";
-}
