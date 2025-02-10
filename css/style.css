@@ -1,8 +1,14 @@
 
 
-.logo {
-    
+body {
     font-family: 'Montserrat', sans-serif;
+}
+
+
+
+
+
+.logo {
     font-weight: 700;
 
     font-size: 18px;
@@ -20,4 +26,20 @@
     flex: none;
     order: 0;
     flex-grow: 0;
+}
+
+.flcont {
+    border: #111111 solid 5px;
+    display: flex;
+    gap: 20px;
+}
+
+.flel1 {
+    border: red solid 5px;
+    width: 200px;
+}
+
+.flel2 {
+    border: green solid 5px;
+    flex-grow: 1;
 }
