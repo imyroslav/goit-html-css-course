@@ -4,8 +4,9 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-
-
+.backcolor {
+    background-color: aqua;
+}
 
 
 .logo {
@@ -43,3 +44,19 @@ body {
     border: green solid 5px;
     flex-grow: 1;
 }
+
+
+
+.container {
+    
+    width: 1168px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+
+
+
+
