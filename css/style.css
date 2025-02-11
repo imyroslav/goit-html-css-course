@@ -56,6 +56,24 @@ body {
     padding-right: 16px;
 }
 
+.main-navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 980px;
+}
+
+.menu {
+    display: flex;
+    column-gap: 20px;
+}
+
+.menu-link {
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
 
 
 
