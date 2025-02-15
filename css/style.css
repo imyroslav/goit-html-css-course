@@ -74,6 +74,33 @@ body {
     padding-bottom: 32px;
 }
 
+.title {
+    font-family: sans-serif;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.title::before {
+    display: block;
+    content: "";
+    width: 300px;
+    height: 5px;
+    border: 1px solid green;
+    background-color: coral;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+.title:hover::before {
+    border: crimson;
+}
+
+
+.title::after {
+    content: "!";
+    color: red;
+}
 
 
 
