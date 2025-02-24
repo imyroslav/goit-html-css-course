@@ -5,7 +5,7 @@
     width: 500px;
     min-height: 200px;
     padding: 30px;
-    background-color: aquamarine;
+    background-color: rgb(197, 233, 135);
 }
 
 
@@ -22,4 +22,27 @@
     padding-left: 10px;
     margin-bottom: 20px;
     border: 1px blue solid; 
+}
+
+.contact-form-btn {
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: black;
+}
+
+.contact-form-btn-submit {
+    background-color: rgb(113, 241, 143);
+}
+
+.contact-form-btn-reset {
+    background-color: rgb(244, 139, 195);
+}
+
+
+.contact-form-btn-wrapper {
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
 }
