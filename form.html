@@ -11,13 +11,49 @@
 
     <form class="contact-form">
 
-        <input class="contact-form-input" type="text" placeholder="Oleksandr">
-        <input class="contact-form-input" type="text" placeholder="olexandr@gmail.com">
-        <input class="contact-form-input" type="text" placeholder="+38-(xxx)-xxx-xx-xx">
+        <label class="contact-form-field-label" for="user-first-name">
+            Your name
+        </label>
+
+        <input 
+            class="contact-form-input" 
+            type="text" 
+            placeholder="Oleksandr" 
+            id="user-first-name"
+            name="user-name"
+            required
+        >
+
+        <label class="contact-form-field-label" for="user-email">
+            Your email
+        </label>
+        <input 
+            class="contact-form-input" 
+            type="email" 
+            placeholder="olexandr@gmail.com" 
+            id="user-email"
+            name="user-email"
+            required
+        >
+        <label class="contact-form-field-label" for="user-phone">
+            Your phone
+        </label>
+        <input 
+            class="contact-form-input" 
+            type="tel" 
+            placeholder="+38-(xxx)-xxx-xx-xx" 
+            id="user-phone"
+            name="user-phone"
+            required
+        >
 
         <div class="contact-form-btn-wrapper">
-            <button class="contact-form-btn contact-form-btn-submit" type="submit">submit</button>
-            <button class="contact-form-btn contact-form-btn-reset" type="reset">reset</button>
+            <button class="contact-form-btn contact-form-btn-submit" type="submit">
+                submit
+            </button>
+            <button class="contact-form-btn contact-form-btn-reset" type="reset">
+                reset
+            </button>
         </div>
 
 
